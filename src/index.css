@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .font-sketch {
+    font-family: 'Patrick Hand', 'Architects Daughter', cursive, sans-serif;
+  }
+  .font-architect {
+    font-family: 'Architects Daughter', 'Patrick Hand', cursive, sans-serif;
+  }
+  .font-tech {
+    font-family: 'JetBrains Mono', monospace;
+  }
+}
+
+.wireframe-grid {
+  background-size: 24px 24px;
+  background-image: 
+    linear-gradient(to right, rgba(0, 0, 0, 0.04) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.04) 1px, transparent 1px);
+}
+
+.wireframe-dots {
+  background-size: 20px 20px;
+  background-image: radial-gradient(circle, rgba(0, 0, 0, 0.12) 1px, transparent 1px);
+}

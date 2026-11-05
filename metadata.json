@@ -1,0 +1,6 @@
+{
+  "name": "Arquitectura Sistema Almacén",
+  "description": "Wireframe y diseño visual de acceso y arquitectura para sistema de almacén en navegador web clásico.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
